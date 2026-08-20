@@ -13,7 +13,8 @@ voice, and a calm palette that stays clear while the market is loud.
 
 | Folder | What's in it |
 |---|---|
-| **Logos/** | The logotype: horizontal, symbol, and reversed for dark backgrounds. SVG and PNG. |
+| **Logos/** | The logotype: horizontal, symbol, reversed for dark backgrounds, square lockups and avatars. SVG and PNG. |
+| **Banners/** | Profile and company banners for X and LinkedIn, exported at each platform's native size. |
 | **Illustrations/** | The 18 painted landscapes, in three sets by time of day. Full-resolution masters, plus web-sized copies. |
 | **Templates/** | Social canvases: announcement, stat, split, editorial and story formats in 16:9, 1:1 and 9:16. |
 | **Brand/** | Colour, typography and the fonts themselves. |
@@ -29,22 +30,44 @@ download, for anyone who doesn't want to clone the repository.
 | `Logos/Horizontal/` | The default lockup, `1212` in ink and `CAPITAL` in lavender. |
 | `Logos/Symbol/` | `1212` alone, when the space is too tight for the full lockup or the context already says who we are. |
 | `Logos/Reversed/` | The lockup on dusk and other dark surfaces. |
-
-| `Logos/Avatars/` | Square profile pictures for LinkedIn, X and anywhere else that crops to a circle. |
+| `Logos/Square/` | The stacked two-tone lockup, `1212` over `CAPITAL`, on a square. The official square mark for LinkedIn and X profile pictures. |
+| `Logos/Avatars/` | `1212` alone on a square, for the smallest placements and anything that crops to a tight circle. |
 
 The SVGs carry outlined paths, so they render identically without the font
 installed. Give the logotype room to breathe, and never redraw, restyle,
 recolour or stretch it.
 
+### Square lockups
+
+The official square mark: `1212` in ink over `CAPITAL` in lavender, letter-spaced,
+centred on a 1024 px square. Five backgrounds, paper (primary), ivory, sand,
+ink and dusk, each at 1024, 512 and 400 px. Use 400 for a LinkedIn or X
+profile picture, 1024 when something asks for the largest version. The lockup
+sits well inside the circular crop on every platform.
+
 ### Avatars
 
-Three backgrounds, ivory, dusk and lavender, each at 1024, 512 and 400 px.
-Use 400 for a LinkedIn or X profile picture, 512 for a favicon or app icon,
-1024 when something asks for the largest version.
+`1212` alone, on ivory, dusk and lavender, each at 1024, 512 and 400 px. Use
+these where the square lockup would be too small to read, 512 for a favicon or
+app icon, and for any placement that crops to a tight circle. The mark occupies
+just over half the square, which keeps it clear of that crop.
 
-The mark is `1212` alone, never the full lockup: `CAPITAL` becomes unreadable
-at avatar sizes and gets clipped by the circular crop. The mark occupies just
-over half the square, which keeps it clear of that crop on every platform.
+## Banners
+
+Exported from `1212.pen` at each platform's native size, ready to upload:
+
+| File | Size | Platform |
+|---|---|---|
+| `Banners/X/1212-capital-x-header-*.png` | 1500 × 500 | X profile header |
+| `Banners/LinkedIn/1212-capital-linkedin-profile-*.png` | 1584 × 396 | LinkedIn personal profile background |
+| `Banners/LinkedIn/1212-capital-linkedin-company-*.png` | 1128 × 191 | LinkedIn company page cover |
+
+Each comes in three versions: **wordmark** (the lockup alone on a dusk
+landscape), **anchored** ("Anchored in traditional finance.") and **fluent**
+("Fluent in digital asset markets."). Pair anchored and fluent across the
+company page and personal profiles, or use the wordmark when the copy is
+already on the page. The masters live in the `1212 Capital — Social Banners`
+frame of `1212.pen`.
 
 ## Illustrations
 
