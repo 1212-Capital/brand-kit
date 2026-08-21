@@ -27,21 +27,23 @@ download, for anyone who doesn't want to clone the repository.
 
 | File | Use |
 |---|---|
-| `Logos/Horizontal/` | The default lockup, `1212` in ink and `CAPITAL` in lavender. |
+| `Logos/Horizontal/` | The default lockup, `1212` in ink and `CAPITAL` in lavender. Both words Lora semibold (600); `CAPITAL` is letter-spaced (1 px at 40 px). |
 | `Logos/Symbol/` | `1212` alone, when the space is too tight for the full lockup or the context already says who we are. |
 | `Logos/Reversed/` | The lockup on dusk and other dark surfaces. |
 | `Logos/Square/` | The stacked two-tone lockup, `1212` over `CAPITAL`, on a square. The official square mark for LinkedIn and X profile pictures. |
 | `Logos/Avatars/` | `1212` alone on a square, for the smallest placements and anything that crops to a tight circle. |
 
 The SVGs carry outlined paths, so they render identically without the font
-installed. Give the logotype room to breathe, and never redraw, restyle,
+installed (`scripts/logo-svg.py` regenerates them from the Lora variable font
+in `Brand/Fonts/`, matching the Pencil lockups). Give the logotype room to breathe, and never redraw, restyle,
 recolour or stretch it.
 
 ### Square lockups
 
-The official square mark: `1212` in ink over `CAPITAL` in lavender, letter-spaced,
-centred on a 1024 px square. Five backgrounds, paper (primary), ivory, sand,
-ink and dusk, each at 1024, 512 and 400 px. Use 400 for a LinkedIn or X
+The official square mark: a large `1212` in ink over `CAPITAL` in lavender,
+set small and letter-spaced across the same width, centred on a 1024 px
+square. Four backgrounds, paper (primary), ivory, sand and dusk, each at 1024,
+512 and 400 px. Use 400 for a LinkedIn or X
 profile picture, 1024 when something asks for the largest version. The lockup
 sits well inside the circular crop on every platform.
 
@@ -121,7 +123,7 @@ they do not decorate.
 
 | Family | Role |
 |---|---|
-| **Lora** | Display only, weight 500. 600 appears in the logotype and nowhere else. |
+| **Lora** | Display only, weight 500. Semibold (600) is reserved for the logotype, both `1212` and `CAPITAL`, and appears nowhere else. |
 | **Inter** | Body copy, labels, tables, UI. |
 | **IBM Plex Mono** | Eyebrows, meta lines, and every figure in a document. |
 
