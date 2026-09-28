@@ -1,4 +1,4 @@
-# 1212 Capital — Brand Guidelines
+# 1212 Capital Brand Guidelines
 
 The brand assets and design system for 1212 Capital. Everything here is the
 current, approved version. When something looks different elsewhere, this wins.
@@ -68,16 +68,16 @@ Each comes in three versions: **wordmark** (the lockup alone on a dusk
 landscape), **anchored** ("Anchored in traditional finance.") and **fluent**
 ("Fluent in digital asset markets."). Pair anchored and fluent across the
 company page and personal profiles, or use the wordmark when the copy is
-already on the page. The masters live in the `1212 Capital — Social Banners`
-frame of `1212.pen`.
+already on the page. The masters live in the Social Banners frame of
+`1212.pen`.
 
 ## Illustrations
 
 Three sets of six, named for the light rather than the place:
 
-- **Dawn** — cool lilac light, 06:00
-- **Noon** — bright blue, 12:12
-- **Dusk** — warm orange, 18:00
+- **Dawn**: cool lilac light, 06:00
+- **Noon**: bright blue, 12:12
+- **Dusk**: warm orange, 18:00
 
 Masters are full-resolution PNG, 16:9. `Illustrations/Web/` holds the same
 images at 1600×900 as JPEG, which is what documents and web pages should use.
